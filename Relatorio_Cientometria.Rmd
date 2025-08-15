@@ -1,0 +1,99 @@
+
+---
+title: "Relatório Cientométrico — IA para previsão de enchentes (costeiras/SC)"
+output: html_document
+params:
+  anos: [2000, 2025]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## 1. Pacotes e importação
+
+```{r}
+# install.packages("bibliometrix")
+library(bibliometrix)
+
+# Ajuste os nomes/paths conforme seus arquivos exportados:
+paths <- list(
+  scopus = "scopus_export_YYYYMMDD.csv",
+  wos    = "wos_export_YYYYMMDD.txt",
+  openalex = "openalex_export_YYYYMMDD.bib",
+  lens   = "lens_export_YYYYMMDD.csv",
+  scielo = "scielo_export_YYYYMMDD.ris",
+  scholar= "scholar_pop_export_YYYYMMDD.bib"
+)
+
+# Carregar somente os que você tiver exportado:
+dfs <- list()
+
+if (file.exists(paths$scopus))   dfs$scopus   <- convert2df(paths$scopus, dbsource = "scopus",   format = "csv")
+if (file.exists(paths$wos))      dfs$wos      <- convert2df(paths$wos,    dbsource = "wos",      format = "plaintext")
+if (file.exists(paths$openalex)) dfs$openalex <- convert2df(paths$openalex, dbsource = "openalex", format = "bibtex")
+if (file.exists(paths$lens))     dfs$lens     <- convert2df(paths$lens,   dbsource = "lens",     format = "csv")
+if (file.exists(paths$scielo))   dfs$scielo   <- convert2df(paths$scielo, dbsource = "scopus",   format = "ris")
+if (file.exists(paths$scholar))  dfs$scholar  <- convert2df(paths$scholar, dbsource = "wos",     format = "bibtex")
+
+length(dfs)
+```
+
+## 2. Mesclar bases e remover duplicatas
+
+```{r}
+M <- mergeDbSources(dfs, remove.duplicated = TRUE)
+# Filtro temporal
+yrs <- params$anos
+M <- M[M$PY >= yrs[1] & M$PY <= yrs[2], ]
+nrow(M)
+```
+
+## 3. Análise descritiva
+
+```{r}
+res <- biblioAnalysis(M, sep = ";")
+S <- summary(res, k = 20, pause = FALSE)
+S$MainInformation
+```
+
+### Publicações por ano
+
+```{r}
+plot(x = res, k = 10, pause = FALSE)
+```
+
+## 4. Redes
+
+### Co-palavra (Author Keywords + Keywords Plus)
+
+```{r}
+Net_kw <- biblioNetwork(M, analysis = "co-occurrences", network = "keywords", sep = ";")
+networkPlot(Net_kw, normalize = "association", type = "fruchterman", n = 50, size = TRUE, labelsize = 0.7)
+```
+
+### Co-citação (Referências)
+
+```{r}
+Net_ref <- biblioNetwork(M, analysis = "co-citation", network = "references", sep = ";")
+networkPlot(Net_ref, type = "fruchterman", n = 50, size = TRUE, labelsize = 0.7)
+```
+
+### Acoplamento bibliográfico (Autores)
+
+```{r}
+Net_bc <- biblioNetwork(M, analysis = "coupling", network = "authors", sep = ";")
+networkPlot(Net_bc, type = "fruchterman", n = 50, size = TRUE, labelsize = 0.7)
+```
+
+## 5. Mapa Temático
+
+```{r}
+thematicMap(M, field = "ID", minfreq = 5, stemming = FALSE, nLabels = 4)
+```
+
+## 6. Próximos passos (preencher)
+
+- Interprete os clusters (nomes de temas, principais autores/trabalhos)
+- Destaque lacunas: integração socioeconômica, dados costeiros locais (maré/onda), Brasil/SC
+- Relacione com objetivos e hipóteses do seu projeto

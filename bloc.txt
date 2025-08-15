@@ -1,0 +1,10 @@
+(flood* OR inundation* OR "flash flood*" OR "urban flooding")
+AND ("machine learning" OR "deep learning" OR "neural network*" OR LSTM OR "random forest" OR "gradient boosting")
+AND (coast* OR "coastal zone*" OR shoreline OR estuary OR "storm surge")
+AND (Brazil OR "Santa Catarina" OR "Itajaí")
+
+
+(enchent* OR inunda* OR alagament*)
+AND ("aprendizado de máquina" OR "aprendizagem de máquina" OR "inteligência artificial" OR "rede* neural*" OR LSTM OR "floresta aleatória")
+AND (costeir* OR litoral OR "zona costeira")
+AND (Brasil OR "Santa Catarina" OR Itajaí)
