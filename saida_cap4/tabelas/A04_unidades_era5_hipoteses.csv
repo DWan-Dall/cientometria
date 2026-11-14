@@ -1,0 +1,4 @@
+hipotese,precipitacao_anual_media_mm,precipitacao_anual_min_mm,precipitacao_anual_max_mm,confere_com_coluna_da_base,referencia_externa,decisao,script,linha_script
+H1: tp(m/dia) x 1000 x dias do mês (usada na base),1723.887049734499,952.3286555054606,3074.9059465520886,TRUE,"normal climatológica do litoral de SC na ordem de 1.300-2.000 mm/ano (INMET, a confirmar pela autora)",PENDENTE - decisão da autora,01_metadados.R,167
+H2: tp x 1000 (trata o valor mensal como total do mês),56.759621360086456,31.243258648540483,101.5692215475028,FALSE,"normal climatológica do litoral de SC na ordem de 1.300-2.000 mm/ano (INMET, a confirmar pela autora)",PENDENTE - decisão da autora,01_metadados.R,167
+H3: tp x 1000 x 24 x dias (trata como acumulação horária),41373.28919362798,22855.887732131057,73797.74271725012,FALSE,"normal climatológica do litoral de SC na ordem de 1.300-2.000 mm/ano (INMET, a confirmar pela autora)",PENDENTE - decisão da autora,01_metadados.R,167

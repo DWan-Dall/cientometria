@@ -1,0 +1,2 @@
+tipo,arquivo,script,linha_script,descricao
+tabela,D00_quadro_evidencias_hipoteses.csv,06_quadro_evidencias.R,115,"Quadro de evidências descritivas por hipótese, com tabela de origem, leitura alternativa e pergunta em aberto"

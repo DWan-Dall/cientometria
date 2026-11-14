@@ -1,0 +1,12 @@
+var1,var2,rho_spearman,rotulo1,rotulo2,n_pares,script,linha_script
+mapb_cob_n1_area_nao_vegetada_pct,mapb_cob_n2_area_urbanizada_pct,0.9693553899263595,Área não vegetada,Área urbanizada,1190,04_preditoras.R,85
+prec_3m_max,prec_anual,0.837921772297826,Maior acumulado de 3 meses,Precipitação anual,1225,04_preditoras.R,85
+prec_3m_max,prec_max_mes,0.7960884451659944,Maior acumulado de 3 meses,Maior precipitação mensal do ano,1225,04_preditoras.R,85
+prec_anual,prec_max_mes,0.7769991128588465,Precipitação anual,Maior precipitação mensal do ano,1225,04_preditoras.R,85
+prec_anual,prec_conv_anual,0.7757691983808204,Precipitação anual,Precipitação convectiva anual,1225,04_preditoras.R,85
+mapb_cob_n1_floresta_pct,nuvens_pct,0.7569005029861269,Floresta,Cobertura de nuvens,1190,04_preditoras.R,85
+prec_conv_anual,vento_medio,-0.7491053321818122,Precipitação convectiva anual,Velocidade do vento a 10 m,1225,04_preditoras.R,85
+mapb_cob_n1_agropecuaria_pct,mapb_cob_n1_floresta_pct,-0.7359167898939982,Agropecuária,Floresta,1190,04_preditoras.R,85
+prec_3m_max,prec_conv_anual,0.7161493178021615,Maior acumulado de 3 meses,Precipitação convectiva anual,1225,04_preditoras.R,85
+mapb_cob_n1_floresta_pct,vento_medio,-0.7105665468802592,Floresta,Velocidade do vento a 10 m,1190,04_preditoras.R,85
+nuvens_pct,vento_medio,-0.7046470268368358,Cobertura de nuvens,Velocidade do vento a 10 m,1225,04_preditoras.R,85

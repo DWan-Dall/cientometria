@@ -1,0 +1,6 @@
+tipologia,eventos,municipio_anos_com_evento,primeiro_ano,ultimo_ano,pct,script,linha_script
+Enxurradas,277,220,1991,2025,37.84153005464481,03_variavel_resposta.R,31
+Inundações,69,65,1991,2025,9.426229508196721,03_variavel_resposta.R,31
+Alagamentos,73,60,1998,2025,9.972677595628415,03_variavel_resposta.R,31
+Movimento de massa,24,24,1995,2024,3.278688524590164,03_variavel_resposta.R,31
+Chuvas intensas,289,168,2013,2025,39.48087431693989,03_variavel_resposta.R,31

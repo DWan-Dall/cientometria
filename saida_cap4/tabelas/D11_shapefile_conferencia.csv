@@ -1,0 +1,2 @@
+n_feicoes_originais,n_poligonos,municipios_sem_poligono,coluna_codigo_no_shapefile,sem_atlas,crs,script,linha_script
+81,37,,"coalesce(codigo_ibg, GEOCODIGO, GEOCODIGO_)",2,EPSG:4326,05_evidencias_hipoteses.R,251

@@ -1,0 +1,54 @@
+tipo,arquivo,script,linha_script,descricao
+tabela,A01_metadados_por_fonte.csv,01_metadados.R,122,Tabela-síntese de metadados por fonte de dados (pedido A)
+tabela,A02_metadados_por_variavel.csv,01_metadados.R,62,"Uma linha por variável da base mensal consolidada: unidade, período, nº de municípios, % ausentes e papel proposto"
+tabela,A03_cobertura_municipal.csv,01_metadados.R,130,Cobertura por município; Camboriú e Paulo Lopes sem Atlas
+tabela,A04_unidades_era5_hipoteses.csv,01_metadados.R,167,Precipitação anual 1991-2025 (37 municípios) sob três hipóteses de conversão; a base usa H1
+tabela,A05_unidades_era5_razoes_na_base.csv,01_metadados.R,169,Razões entre colunas convertidas e originais na base mensal (mostram as contas aplicadas na consolidação)
+tabela,B01_serie_anual_atlas_hidrologico.csv,02_series_temporais.R,20,"Eventos hidrológicos por ano (soma dos 35 municípios), três alvos e cinco tipologias"
+tabela,B02_serie_anual_era5.csv,02_series_temporais.R,48,"ERA5 anual: média entre os 37 municípios, anos completos 1940-2025"
+tabela,B03_serie_mensal_era5.csv,02_series_temporais.R,72,"ERA5 mensal 1991-2025, média dos 37 municípios"
+tabela,B04_climatologia_mensal_era5.csv,02_series_temporais.R,79,Climatologia mensal 1991-2025 (média regional)
+tabela,B05_sazonalidade_atlas_mensal.csv,02_series_temporais.R,104,"Eventos hidrológicos por mês do ano e período (base mensal do Atlas, grupo hidrológico)"
+tabela,B06_serie_anual_mapbiomas.csv,02_series_temporais.R,126,"MapBiomas: % médio do município por classe e área urbanizada total, por ano"
+tabela,B07_sintese_anual_1991_2025.csv,02_series_temporais.R,148,"Série anual integrada (35 municípios com Atlas): eventos, chuva ERA5, meses extremos, vento, % urbanizada"
+figura,B1_serie_anual_atlas.png,02_series_temporais.R,36,"Série anual do Atlas, três alvos [dados: B01_serie_anual_atlas_hidrologico]"
+figura,B2_serie_anual_era5.png,02_series_temporais.R,63,Séries anuais ERA5 1940-2025 [dados: B02_serie_anual_era5]
+figura,B3_serie_mensal_era5.png,02_series_temporais.R,93,Série mensal e climatologia de precipitação ERA5 [dados: B03_serie_mensal_era5; B04_climatologia_mensal_era5]
+figura,B4_sazonalidade_atlas.png,02_series_temporais.R,113,Sazonalidade mensal do grupo hidrológico [dados: B05_sazonalidade_atlas_mensal]
+figura,B5_serie_anual_mapbiomas.png,02_series_temporais.R,138,Séries anuais de cobertura MapBiomas [dados: B06_serie_anual_mapbiomas]
+figura,B6_sintese_tres_bases.png,02_series_temporais.R,163,Síntese das três bases [dados: B07_sintese_anual_1991_2025]
+tabela,C01_totais_variavel_resposta.csv,03_variavel_resposta.R,21,Totais dos três alvos; confere 732 = 443 + 289
+tabela,C02_composicao_tipologica_total.csv,03_variavel_resposta.R,31,"Eventos por tipologia do grupo hidrológico, 1991-2025"
+tabela,C03_composicao_tipologica_por_bloco.csv,03_variavel_resposta.R,44,Composição tipológica por bloco de 5 anos
+tabela,C04_descritivas_resposta.csv,03_variavel_resposta.R,72,"Estatísticas descritivas dos três alvos no município-ano e na série anual agregada; razão variância/média (sobredispersão, só descritiva)"
+tabela,C05_frequencia_contagens.csv,03_variavel_resposta.R,82,"Distribuição de frequências: quantos município-anos têm 0, 1, 2, ... eventos"
+tabela,C06_ausentes_resposta.csv,03_variavel_resposta.R,107,"Ausentes da variável-resposta na janela 1991-2025, por presença de Atlas"
+tabela,C07_perfil_municipal_resposta.csv,03_variavel_resposta.R,119,"Eventos por município (três alvos), anos com evento, densidade por área"
+tabela,C08_danos_hidrologicos_contexto.csv,03_variavel_resposta.R,139,Danos humanos e econômicos do grupo hidrológico (unidade monetária conforme Atlas; não convertida)
+tabela,C09_descritivas_preditoras.csv,04_preditoras.R,38,"Estatísticas descritivas e ausentes das preditoras, município-ano 1991-2025 (35 municípios)"
+tabela,C10_variacao_entre_dentro_municipios.csv,04_preditoras.R,52,Parcela da variação de cada preditora entre municípios x entre anos
+tabela,C11_correlacao_preditoras_municipio_ano.csv,04_preditoras.R,81,Matriz de correlação de Spearman entre preditoras no município-ano (formato longo)
+tabela,C12_pares_correlacao_alta.csv,04_preditoras.R,85,"Pares de preditoras com |rho| >= 0,7 (redundância potencial, município-ano)"
+tabela,C13_correlacao_preditoras_entre_municipios.csv,04_preditoras.R,95,"Correlação de Spearman entre médias municipais 1991-2025 (n = 35), incluindo latitude"
+tabela,C14_descritivas_era5_municipio_mes.csv,04_preditoras.R,121,"Descritivas das principais variáveis ERA5 no município-mês, 35 municípios, 1991-2025"
+figura,C1_composicao_tipologica_blocos.png,03_variavel_resposta.R,56,Barras empilhadas por tipologia e bloco [dados: C03_composicao_tipologica_por_bloco]
+figura,C2_distribuicao_contagens.png,03_variavel_resposta.R,93,Histograma das contagens por alvo [dados: C05_frequencia_contagens]
+figura,C3_eventos_por_municipio.png,03_variavel_resposta.R,130,Ranking municipal [dados: C07_perfil_municipal_resposta]
+figura,C4_distribuicao_preditoras.png,04_preditoras.R,68,Histogramas das preditoras [dados: C09_descritivas_preditoras]
+figura,C5_correlacao_preditoras.png,04_preditoras.R,109,Mapa de calor da correlação entre preditoras [dados: C11_correlacao_preditoras_municipio_ano]
+tabela,D00_quadro_evidencias_hipoteses.csv,06_quadro_evidencias.R,115,"Quadro de evidências descritivas por hipótese, com tabela de origem, leitura alternativa e pergunta em aberto"
+tabela,D01_quebra_2012_2013.csv,05_evidencias_hipoteses.R,37,Médias anuais antes e depois do corte (2012 da AED original; 2013 = 1º ano de 'Chuvas Intensas')
+tabela,D02_tendencia_descritiva_mk_sen.csv,05_evidencias_hipoteses.R,56,"Mann-Kendall (tau, p) e inclinação de Sen por década, séries anuais agregadas; uso descritivo"
+tabela,D03_enxurradas_x_chuvas_intensas.csv,05_evidencias_hipoteses.R,67,Série anual 2008-2025 das tipologias e da % de 'Chuvas Intensas' no total
+tabela,D04_correlacao_anual_registro_clima.csv,05_evidencias_hipoteses.R,93,Spearman entre séries anuais agregadas (n = 35 anos); descritivo
+tabela,D05_dose_resposta_descritiva.csv,05_evidencias_hipoteses.R,118,"Proporção de município-anos com evento por classe do descritor climático, por período e alvo"
+tabela,D06_forca_dose_resposta.csv,05_evidencias_hipoteses.R,124,Razão P(evento) classe mais alta / mais baixa; vento = controle negativo
+tabela,D07_indicadores_de_registro.csv,05_evidencias_hipoteses.R,153,Municípios com registro hidrológico por ano; reconhecidos x registros simples (todos os grupos)
+tabela,D08_perfil_municipal_uso_terra.csv,05_evidencias_hipoteses.R,181,"Perfil municipal: eventos, densidade, clima médio, MapBiomas em 2024, ganho urbano 1991-2024"
+tabela,D09_associacao_municipal_bruta.csv,05_evidencias_hipoteses.R,199,Spearman bruto entre municípios (n = 35); coluna extra mostra quanto cada descritor acompanha a latitude. Correlações parciais do script original foram cortadas (usam regressão)
+tabela,D10_moran_municipal.csv,05_evidencias_hipoteses.R,233,"I de Moran (descritivo) para densidade de eventos, composição, tendências e dois descritores"
+tabela,D11_shapefile_conferencia.csv,05_evidencias_hipoteses.R,251,Conferência da junção shapefile x base
+figura,D1_enxurradas_x_chuvas_intensas.png,05_evidencias_hipoteses.R,80,Séries das tipologias [dados: D03_enxurradas_x_chuvas_intensas]
+figura,D2_dose_resposta_controle_negativo.png,05_evidencias_hipoteses.R,141,Dose-resposta por descritor e período [dados: D05_dose_resposta_descritiva]
+figura,D3_associacao_municipal.png,05_evidencias_hipoteses.R,210,Associação municipal bruta [dados: D09_associacao_municipal_bruta]
+figura,D4_mapas_densidade_composicao.png,05_evidencias_hipoteses.R,264,Mapas municipais [dados: D08_perfil_municipal_uso_terra; D10_moran_municipal]

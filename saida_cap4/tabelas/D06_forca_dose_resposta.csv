@@ -1,0 +1,46 @@
+alvo,descritor,periodo,classe_baixa,P_baixa,classe_alta,P_alta,razao_alta_baixa,script,linha_script
+Hidrológico sem chuvas intensas,Maior acumulado de 3 meses,1991-2012,<=P25,0.11464968152866242,>P90,0.4672897196261682,4.075804776739356,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Maior acumulado de 3 meses,1991-2025,<=P25,0.175,>P90,0.4,2.285714285714286,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Maior acumulado de 3 meses,2013-2025,<=P25,0.25203252032520324,>P90,0.18181818181818182,0.7214076246334311,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Maior precipitação mensal,1991-2012,<=P25,0.12650602409638553,>P90,0.5714285714285714,4.517006802721088,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Maior precipitação mensal,1991-2025,<=P25,0.18571428571428572,>P90,0.5,2.692307692307692,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Maior precipitação mensal,2013-2025,<=P25,0.2719298245614035,>P90,0.3333333333333333,1.225806451612903,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Meses de chuva extrema,1991-2012,0,0.20918367346938777,2+,0.4507042253521127,2.1545860529027827,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Meses de chuva extrema,1991-2025,0,0.22929936305732485,2+,0.41237113402061853,1.7983963344788085,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Meses de chuva extrema,2013-2025,0,0.2627118644067797,2+,0.3076923076923077,1.1712158808933002,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Precipitação anual,1991-2012,<=P25,0.13291139240506328,>P90,0.504950495049505,3.7991513437057995,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Precipitação anual,1991-2025,<=P25,0.19642857142857142,>P90,0.4714285714285714,2.4,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Precipitação anual,2013-2025,<=P25,0.2786885245901639,>P90,0.38461538461538464,1.3800904977375568,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Vento médio (controle negativo),1991-2012,<=P25,0.14054054054054055,>P90,0.34210526315789475,2.4342105263157894,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Vento médio (controle negativo),1991-2025,<=P25,0.18928571428571428,>P90,0.32142857142857145,1.69811320754717,05_evidencias_hipoteses.R,124
+Hidrológico sem chuvas intensas,Vento médio (controle negativo),2013-2025,<=P25,0.28421052631578947,>P90,0.296875,1.0445601851851851,05_evidencias_hipoteses.R,124
+Hidrológico total,Maior acumulado de 3 meses,1991-2012,<=P25,0.11464968152866242,>P90,0.4672897196261682,4.075804776739356,05_evidencias_hipoteses.R,124
+Hidrológico total,Maior acumulado de 3 meses,1991-2025,<=P25,0.2357142857142857,>P90,0.5428571428571428,2.3030303030303028,05_evidencias_hipoteses.R,124
+Hidrológico total,Maior acumulado de 3 meses,2013-2025,<=P25,0.3902439024390244,>P90,0.7878787878787878,2.0189393939393936,05_evidencias_hipoteses.R,124
+Hidrológico total,Maior precipitação mensal,1991-2012,<=P25,0.12650602409638553,>P90,0.5714285714285714,4.517006802721088,05_evidencias_hipoteses.R,124
+Hidrológico total,Maior precipitação mensal,1991-2025,<=P25,0.2571428571428571,>P90,0.6357142857142857,2.4722222222222223,05_evidencias_hipoteses.R,124
+Hidrológico total,Maior precipitação mensal,2013-2025,<=P25,0.4473684210526316,>P90,0.7857142857142857,1.7563025210084033,05_evidencias_hipoteses.R,124
+Hidrológico total,Meses de chuva extrema,1991-2012,0,0.20918367346938777,2+,0.4507042253521127,2.1545860529027827,05_evidencias_hipoteses.R,124
+Hidrológico total,Meses de chuva extrema,1991-2025,0,0.31528662420382164,2+,0.5360824742268041,1.7003019889617828,05_evidencias_hipoteses.R,124
+Hidrológico total,Meses de chuva extrema,2013-2025,0,0.4915254237288136,2+,0.7692307692307693,1.5649867374005306,05_evidencias_hipoteses.R,124
+Hidrológico total,Precipitação anual,1991-2012,<=P25,0.13291139240506328,>P90,0.504950495049505,3.7991513437057995,05_evidencias_hipoteses.R,124
+Hidrológico total,Precipitação anual,1991-2025,<=P25,0.2714285714285714,>P90,0.5357142857142857,1.973684210526316,05_evidencias_hipoteses.R,124
+Hidrológico total,Precipitação anual,2013-2025,<=P25,0.45081967213114754,>P90,0.6153846153846154,1.3650349650349651,05_evidencias_hipoteses.R,124
+Hidrológico total,Vento médio (controle negativo),1991-2012,<=P25,0.14054054054054055,>P90,0.34210526315789475,2.4342105263157894,05_evidencias_hipoteses.R,124
+Hidrológico total,Vento médio (controle negativo),1991-2025,<=P25,0.2714285714285714,>P90,0.44285714285714284,1.631578947368421,05_evidencias_hipoteses.R,124
+Hidrológico total,Vento médio (controle negativo),2013-2025,<=P25,0.5263157894736842,>P90,0.5625,1.06875,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Maior acumulado de 3 meses,1991-2012,<=P25,0,>P90,0,,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Maior acumulado de 3 meses,1991-2025,<=P25,0.09285714285714286,>P90,0.16428571428571428,1.7692307692307692,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Maior acumulado de 3 meses,2013-2025,<=P25,0.21138211382113822,>P90,0.696969696969697,3.297202797202797,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Maior precipitação mensal,1991-2012,<=P25,0,>P90,0,,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Maior precipitação mensal,1991-2025,<=P25,0.10714285714285714,>P90,0.17857142857142858,1.6666666666666667,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Maior precipitação mensal,2013-2025,<=P25,0.2631578947368421,>P90,0.5952380952380952,2.261904761904762,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Meses de chuva extrema,1991-2012,0,0,2+,0,,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Meses de chuva extrema,1991-2025,0,0.11942675159235669,2+,0.15979381443298968,1.3380068728522336,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Meses de chuva extrema,2013-2025,0,0.3177966101694915,2+,0.5961538461538461,1.8758974358974358,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Precipitação anual,1991-2012,<=P25,0,>P90,0,,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Precipitação anual,1991-2025,<=P25,0.12142857142857143,>P90,0.11428571428571428,0.9411764705882353,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Precipitação anual,2013-2025,<=P25,0.2786885245901639,>P90,0.41025641025641024,1.4720965309200604,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Vento médio (controle negativo),1991-2012,<=P25,0,>P90,0,,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Vento médio (controle negativo),1991-2025,<=P25,0.10357142857142858,>P90,0.20714285714285716,2,05_evidencias_hipoteses.R,124
+Só chuvas intensas,Vento médio (controle negativo),2013-2025,<=P25,0.30526315789473685,>P90,0.453125,1.484375,05_evidencias_hipoteses.R,124

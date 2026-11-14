@@ -1,0 +1,16 @@
+tipo,arquivo,script,linha_script,descricao
+tabela,D01_quebra_2012_2013.csv,05_evidencias_hipoteses.R,37,Médias anuais antes e depois do corte (2012 da AED original; 2013 = 1º ano de 'Chuvas Intensas')
+tabela,D02_tendencia_descritiva_mk_sen.csv,05_evidencias_hipoteses.R,56,"Mann-Kendall (tau, p) e inclinação de Sen por década, séries anuais agregadas; uso descritivo"
+tabela,D03_enxurradas_x_chuvas_intensas.csv,05_evidencias_hipoteses.R,67,Série anual 2008-2025 das tipologias e da % de 'Chuvas Intensas' no total
+figura,D1_enxurradas_x_chuvas_intensas.png,05_evidencias_hipoteses.R,80,Séries das tipologias [dados: D03_enxurradas_x_chuvas_intensas]
+tabela,D04_correlacao_anual_registro_clima.csv,05_evidencias_hipoteses.R,93,Spearman entre séries anuais agregadas (n = 35 anos); descritivo
+tabela,D05_dose_resposta_descritiva.csv,05_evidencias_hipoteses.R,118,"Proporção de município-anos com evento por classe do descritor climático, por período e alvo"
+tabela,D06_forca_dose_resposta.csv,05_evidencias_hipoteses.R,124,Razão P(evento) classe mais alta / mais baixa; vento = controle negativo
+figura,D2_dose_resposta_controle_negativo.png,05_evidencias_hipoteses.R,141,Dose-resposta por descritor e período [dados: D05_dose_resposta_descritiva]
+tabela,D07_indicadores_de_registro.csv,05_evidencias_hipoteses.R,153,Municípios com registro hidrológico por ano; reconhecidos x registros simples (todos os grupos)
+tabela,D08_perfil_municipal_uso_terra.csv,05_evidencias_hipoteses.R,181,"Perfil municipal: eventos, densidade, clima médio, MapBiomas em 2024, ganho urbano 1991-2024"
+tabela,D09_associacao_municipal_bruta.csv,05_evidencias_hipoteses.R,199,Spearman bruto entre municípios (n = 35); coluna extra mostra quanto cada descritor acompanha a latitude. Correlações parciais do script original foram cortadas (usam regressão)
+figura,D3_associacao_municipal.png,05_evidencias_hipoteses.R,210,Associação municipal bruta [dados: D09_associacao_municipal_bruta]
+tabela,D10_moran_municipal.csv,05_evidencias_hipoteses.R,233,"I de Moran (descritivo) para densidade de eventos, composição, tendências e dois descritores"
+tabela,D11_shapefile_conferencia.csv,05_evidencias_hipoteses.R,251,Conferência da junção shapefile x base
+figura,D4_mapas_densidade_composicao.png,05_evidencias_hipoteses.R,264,Mapas municipais [dados: D08_perfil_municipal_uso_terra; D10_moran_municipal]

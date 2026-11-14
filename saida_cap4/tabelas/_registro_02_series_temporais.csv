@@ -1,0 +1,14 @@
+tipo,arquivo,script,linha_script,descricao
+tabela,B01_serie_anual_atlas_hidrologico.csv,02_series_temporais.R,20,"Eventos hidrológicos por ano (soma dos 35 municípios), três alvos e cinco tipologias"
+figura,B1_serie_anual_atlas.png,02_series_temporais.R,36,"Série anual do Atlas, três alvos [dados: B01_serie_anual_atlas_hidrologico]"
+tabela,B02_serie_anual_era5.csv,02_series_temporais.R,48,"ERA5 anual: média entre os 37 municípios, anos completos 1940-2025"
+figura,B2_serie_anual_era5.png,02_series_temporais.R,63,Séries anuais ERA5 1940-2025 [dados: B02_serie_anual_era5]
+tabela,B03_serie_mensal_era5.csv,02_series_temporais.R,72,"ERA5 mensal 1991-2025, média dos 37 municípios"
+tabela,B04_climatologia_mensal_era5.csv,02_series_temporais.R,79,Climatologia mensal 1991-2025 (média regional)
+figura,B3_serie_mensal_era5.png,02_series_temporais.R,93,Série mensal e climatologia de precipitação ERA5 [dados: B03_serie_mensal_era5; B04_climatologia_mensal_era5]
+tabela,B05_sazonalidade_atlas_mensal.csv,02_series_temporais.R,104,"Eventos hidrológicos por mês do ano e período (base mensal do Atlas, grupo hidrológico)"
+figura,B4_sazonalidade_atlas.png,02_series_temporais.R,113,Sazonalidade mensal do grupo hidrológico [dados: B05_sazonalidade_atlas_mensal]
+tabela,B06_serie_anual_mapbiomas.csv,02_series_temporais.R,126,"MapBiomas: % médio do município por classe e área urbanizada total, por ano"
+figura,B5_serie_anual_mapbiomas.png,02_series_temporais.R,138,Séries anuais de cobertura MapBiomas [dados: B06_serie_anual_mapbiomas]
+tabela,B07_sintese_anual_1991_2025.csv,02_series_temporais.R,148,"Série anual integrada (35 municípios com Atlas): eventos, chuva ERA5, meses extremos, vento, % urbanizada"
+figura,B6_sintese_tres_bases.png,02_series_temporais.R,163,Síntese das três bases [dados: B07_sintese_anual_1991_2025]

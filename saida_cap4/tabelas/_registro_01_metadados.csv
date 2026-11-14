@@ -1,0 +1,6 @@
+tipo,arquivo,script,linha_script,descricao
+tabela,A02_metadados_por_variavel.csv,01_metadados.R,62,"Uma linha por variável da base mensal consolidada: unidade, período, nº de municípios, % ausentes e papel proposto"
+tabela,A01_metadados_por_fonte.csv,01_metadados.R,122,Tabela-síntese de metadados por fonte de dados (pedido A)
+tabela,A03_cobertura_municipal.csv,01_metadados.R,130,Cobertura por município; Camboriú e Paulo Lopes sem Atlas
+tabela,A04_unidades_era5_hipoteses.csv,01_metadados.R,167,Precipitação anual 1991-2025 (37 municípios) sob três hipóteses de conversão; a base usa H1
+tabela,A05_unidades_era5_razoes_na_base.csv,01_metadados.R,169,Razões entre colunas convertidas e originais na base mensal (mostram as contas aplicadas na consolidação)
