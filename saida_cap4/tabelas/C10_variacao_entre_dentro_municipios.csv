@@ -1,0 +1,16 @@
+coluna,pct_variacao_entre_municipios,pct_variacao_dentro_municipio,rotulo,script,linha_script
+prec_anual,44.50033920378806,55.49966079621195,Precipitação anual,04_preditoras.R,52
+prec_max_mes,26.80514571043376,73.19485428956625,Maior precipitação mensal do ano,04_preditoras.R,52
+prec_3m_max,40.352581785006365,59.64741821499363,Maior acumulado de 3 meses,04_preditoras.R,52
+meses_ext_chuva,0,100,Meses de chuva extrema no ano,04_preditoras.R,52
+prec_conv_anual,75.30075407188852,24.69924592811149,Precipitação convectiva anual,04_preditoras.R,52
+evap_anual,85.82292568098343,14.17707431901658,Evaporação anual,04_preditoras.R,52
+temp_media,73.14894884253103,26.851051157468973,Temperatura média a 2 m,04_preditoras.R,52
+nuvens_pct,74.93044668313905,25.069553316860947,Cobertura de nuvens,04_preditoras.R,52
+vento_medio,98.70805964289144,1.2919403571085675,Velocidade do vento a 10 m,04_preditoras.R,52
+mapb_cob_n2_area_urbanizada_pct,92.35453328652193,7.645466713478067,Área urbanizada,04_preditoras.R,52
+mapb_cob_n1_floresta_pct,99.20151196001794,0.7984880399820593,Floresta,04_preditoras.R,52
+mapb_cob_n1_agropecuaria_pct,98.81578518487625,1.1842148151237408,Agropecuária,04_preditoras.R,52
+mapb_cob_n1_area_nao_vegetada_pct,93.6925939040026,6.307406095997392,Área não vegetada,04_preditoras.R,52
+mapb_urb_pct_vegetada,49.91646616070205,50.08353383929794,Vegetação intraurbana,04_preditoras.R,52
+mapb_risco_total_ha,99.40089995771204,0.5991000422879478,Área urbana em risco (alto+muito alto+médio),04_preditoras.R,52

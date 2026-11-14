@@ -1,0 +1,12 @@
+tipo,arquivo,script,linha_script,descricao
+tabela,C01_totais_variavel_resposta.csv,03_variavel_resposta.R,21,Totais dos três alvos; confere 732 = 443 + 289
+tabela,C02_composicao_tipologica_total.csv,03_variavel_resposta.R,31,"Eventos por tipologia do grupo hidrológico, 1991-2025"
+tabela,C03_composicao_tipologica_por_bloco.csv,03_variavel_resposta.R,44,Composição tipológica por bloco de 5 anos
+figura,C1_composicao_tipologica_blocos.png,03_variavel_resposta.R,56,Barras empilhadas por tipologia e bloco [dados: C03_composicao_tipologica_por_bloco]
+tabela,C04_descritivas_resposta.csv,03_variavel_resposta.R,72,"Estatísticas descritivas dos três alvos no município-ano e na série anual agregada; razão variância/média (sobredispersão, só descritiva)"
+tabela,C05_frequencia_contagens.csv,03_variavel_resposta.R,82,"Distribuição de frequências: quantos município-anos têm 0, 1, 2, ... eventos"
+figura,C2_distribuicao_contagens.png,03_variavel_resposta.R,93,Histograma das contagens por alvo [dados: C05_frequencia_contagens]
+tabela,C06_ausentes_resposta.csv,03_variavel_resposta.R,107,"Ausentes da variável-resposta na janela 1991-2025, por presença de Atlas"
+tabela,C07_perfil_municipal_resposta.csv,03_variavel_resposta.R,119,"Eventos por município (três alvos), anos com evento, densidade por área"
+figura,C3_eventos_por_municipio.png,03_variavel_resposta.R,130,Ranking municipal [dados: C07_perfil_municipal_resposta]
+tabela,C08_danos_hidrologicos_contexto.csv,03_variavel_resposta.R,139,Danos humanos e econômicos do grupo hidrológico (unidade monetária conforme Atlas; não convertida)

@@ -1,0 +1,46 @@
+resposta,descritor,coluna,rho,p_valor,n,rho_descritor_x_latitude,script,linha_script
+Eventos - total,Área urbanizada (%),urbano_pct,-0.07630734799510305,0.6630678503950197,35,0.13417366946778714,05_evidencias_hipoteses.R,199
+Eventos - total,Ganho de área urbanizada (p.p.),ganho_urbano_pp,0.20812372445809876,0.23023581904602905,35,0.5025210084033614,05_evidencias_hipoteses.R,199
+Eventos - total,Floresta (%),floresta_pct,0.46824324773422354,0.00455707201590102,35,0.7756302521008404,05_evidencias_hipoteses.R,199
+Eventos - total,Agropecuária (%),agropecuaria_pct,-0.2575899979282208,0.1351967572910259,35,-0.6394957983193278,05_evidencias_hipoteses.R,199
+Eventos - total,Área urbana em risco (ha),risco_ha,0.2998026745639579,0.08495658797489877,34,0.3851795263559969,05_evidencias_hipoteses.R,199
+Eventos - total,Área do município (km²),area_km2,0.41399898194028284,0.013422298513014833,35,0.0969187675070028,05_evidencias_hipoteses.R,199
+Eventos - total,Precipitação anual média (mm),prec_anual_media,0.3521661401026303,0.03800795016884885,35,0.23137254901960785,05_evidencias_hipoteses.R,199
+Eventos - total,Vento médio (m/s),vento_medio,-0.4540497999487624,0.0061475371049359295,35,-0.5890756302521009,05_evidencias_hipoteses.R,199
+Eventos - total,Latitude do centroide,latitude,0.4896036840054126,0.0028344988466878227,35,1,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Área urbanizada (%),urbano_pct,0.06334294653086528,0.7177289369821258,35,0.13417366946778714,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Ganho de área urbanizada (p.p.),ganho_urbano_pp,0.26797858532348323,0.11960636982658171,35,0.5025210084033614,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Floresta (%),floresta_pct,0.22359638775418514,0.19663674217535487,35,0.7756302521008404,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Agropecuária (%),agropecuaria_pct,-0.08216324550012458,0.6389082619928619,35,-0.6394957983193278,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Área urbana em risco (ha),risco_ha,0.2646552311596373,0.13038452812647122,34,0.3851795263559969,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Área do município (km²),area_km2,0.3752823794467229,0.02631916256249386,35,0.0969187675070028,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Precipitação anual média (mm),prec_anual_media,0.23946723688497845,0.16589615481476994,35,0.23137254901960785,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Vento médio (m/s),vento_medio,-0.33623728158512517,0.04828096146785777,35,-0.5890756302521009,05_evidencias_hipoteses.R,199
+Eventos - sem chuvas intensas,Latitude do centroide,latitude,0.37752957932364933,0.025361718819708588,35,1,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Área urbanizada (%),urbano_pct,-0.3308034683174222,0.05225518595104047,35,0.13417366946778714,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Ganho de área urbanizada (p.p.),ganho_urbano_pp,-0.054218533547129646,0.7570632162537874,35,0.5025210084033614,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Floresta (%),floresta_pct,0.5427486449107471,7.555013778799528e-4,35,0.7756302521008404,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Agropecuária (%),agropecuaria_pct,-0.29573745571161625,0.08454796835862598,35,-0.6394957983193278,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Área urbana em risco (ha),risco_ha,0.10449654871751418,0.5564401449810445,34,0.3851795263559969,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Área do município (km²),area_km2,0.4345932325362132,0.009086197236062936,35,0.0969187675070028,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Precipitação anual média (mm),prec_anual_media,0.3224946540855244,0.05883198981303231,35,0.23137254901960785,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Vento médio (m/s),vento_medio,-0.4064277605636783,0.015403586653842958,35,-0.5890756302521009,05_evidencias_hipoteses.R,199
+Eventos - só chuvas intensas,Latitude do centroide,latitude,0.37798063387141806,0.0251730482139984,35,1,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Área urbanizada (%),urbano_pct,0.4263305322128852,0.010655758315321468,35,0.13417366946778714,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Ganho de área urbanizada (p.p.),ganho_urbano_pp,0.5882352941176472,2.0212593034906482e-4,35,0.5025210084033614,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Floresta (%),floresta_pct,0.07254901960784314,0.678753479157058,35,0.7756302521008404,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Agropecuária (%),agropecuaria_pct,-0.0854341736694678,0.6255688611826934,35,-0.6394957983193278,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Área urbana em risco (ha),risco_ha,0.052711993888464474,0.7671763730934122,34,0.3851795263559969,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Área do município (km²),area_km2,-0.8067226890756304,4.863281145645206e-9,35,0.0969187675070028,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Precipitação anual média (mm),prec_anual_media,0.010644257703081235,0.9516085509642493,35,0.23137254901960785,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Vento médio (m/s),vento_medio,0.04397759103641457,0.8019321429849493,35,-0.5890756302521009,05_evidencias_hipoteses.R,199
+Eventos por mil km² - total,Latitude do centroide,latitude,0.12997198879551822,0.45677689447550396,35,1,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Área urbanizada (%),urbano_pct,-0.41342591081711466,0.013564344601424009,35,0.13417366946778714,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Ganho de área urbanizada (p.p.),ganho_urbano_pp,-0.17980523511130783,0.30134018672275675,35,0.5025210084033614,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Floresta (%),floresta_pct,0.4407540642440087,0.00804805471726302,35,0.7756302521008404,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Agropecuária (%),agropecuaria_pct,-0.2536613215521958,0.14146668637389104,35,-0.6394957983193278,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Área urbana em risco (ha),risco_ha,-0.1614555844263937,0.3616471728527082,34,0.3851795263559969,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Área do município (km²),area_km2,0.17980523511130783,0.3013401867227566,35,0.0969187675070028,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Precipitação anual média (mm),prec_anual_media,0.18793360895110195,0.2796434118255298,35,0.23137254901960785,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Vento médio (m/s),vento_medio,-0.25268031091635856,0.14306503230858017,35,-0.5890756302521009,05_evidencias_hipoteses.R,199
+% chuvas intensas no total,Latitude do centroide,latitude,0.21498147362489964,0.2148938388677748,35,1,05_evidencias_hipoteses.R,199

@@ -1,0 +1,9 @@
+tipo,arquivo,script,linha_script,descricao
+tabela,C09_descritivas_preditoras.csv,04_preditoras.R,38,"Estatísticas descritivas e ausentes das preditoras, município-ano 1991-2025 (35 municípios)"
+tabela,C10_variacao_entre_dentro_municipios.csv,04_preditoras.R,52,Parcela da variação de cada preditora entre municípios x entre anos
+figura,C4_distribuicao_preditoras.png,04_preditoras.R,68,Histogramas das preditoras [dados: C09_descritivas_preditoras]
+tabela,C11_correlacao_preditoras_municipio_ano.csv,04_preditoras.R,81,Matriz de correlação de Spearman entre preditoras no município-ano (formato longo)
+tabela,C12_pares_correlacao_alta.csv,04_preditoras.R,85,"Pares de preditoras com |rho| >= 0,7 (redundância potencial, município-ano)"
+tabela,C13_correlacao_preditoras_entre_municipios.csv,04_preditoras.R,95,"Correlação de Spearman entre médias municipais 1991-2025 (n = 35), incluindo latitude"
+figura,C5_correlacao_preditoras.png,04_preditoras.R,109,Mapa de calor da correlação entre preditoras [dados: C11_correlacao_preditoras_municipio_ano]
+tabela,C14_descritivas_era5_municipio_mes.csv,04_preditoras.R,121,"Descritivas das principais variáveis ERA5 no município-mês, 35 municípios, 1991-2025"

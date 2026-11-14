@@ -1,0 +1,19 @@
+alvo,classe,municipio_anos,pct,script,linha_script
+Hidrológico sem chuvas intensas,0,889,72.57142857142857,03_variavel_resposta.R,82
+Hidrológico sem chuvas intensas,1,253,20.653061224489797,03_variavel_resposta.R,82
+Hidrológico sem chuvas intensas,2,67,5.469387755102041,03_variavel_resposta.R,82
+Hidrológico sem chuvas intensas,3,11,0.8979591836734694,03_variavel_resposta.R,82
+Hidrológico sem chuvas intensas,4,3,0.24489795918367346,03_variavel_resposta.R,82
+Hidrológico sem chuvas intensas,5+,2,0.16326530612244897,03_variavel_resposta.R,82
+Hidrológico total,0,769,62.775510204081634,03_variavel_resposta.R,82
+Hidrológico total,1,295,24.081632653061224,03_variavel_resposta.R,82
+Hidrológico total,2,95,7.755102040816326,03_variavel_resposta.R,82
+Hidrológico total,3,35,2.857142857142857,03_variavel_resposta.R,82
+Hidrológico total,4,19,1.5510204081632653,03_variavel_resposta.R,82
+Hidrológico total,5+,12,0.9795918367346939,03_variavel_resposta.R,82
+Só chuvas intensas,0,1057,86.28571428571429,03_variavel_resposta.R,82
+Só chuvas intensas,1,102,8.326530612244898,03_variavel_resposta.R,82
+Só chuvas intensas,2,35,2.857142857142857,03_variavel_resposta.R,82
+Só chuvas intensas,3,16,1.3061224489795917,03_variavel_resposta.R,82
+Só chuvas intensas,4,9,0.7346938775510204,03_variavel_resposta.R,82
+Só chuvas intensas,5+,6,0.4897959183673469,03_variavel_resposta.R,82

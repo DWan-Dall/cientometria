@@ -1,0 +1,8 @@
+bloco,Enxurradas,Inundações,Alagamentos,Movimento de massa,Chuvas intensas,total,pct_chuvas_intensas,pct_enxurradas,script,linha_script
+1991-95,27,6,0,1,0,34,0,79.41176470588235,03_variavel_resposta.R,44
+1996-00,23,3,1,0,0,27,0,85.18518518518519,03_variavel_resposta.R,44
+2001-05,34,20,1,1,0,56,0,60.714285714285715,03_variavel_resposta.R,44
+2006-10,93,1,2,0,0,96,0,96.875,03_variavel_resposta.R,44
+2011-15,54,25,13,2,4,98,4.081632653061225,55.10204081632653,03_variavel_resposta.R,44
+2016-20,29,6,25,11,57,128,44.53125,22.65625,03_variavel_resposta.R,44
+2021-25,17,8,31,9,228,293,77.81569965870307,5.802047781569966,03_variavel_resposta.R,44

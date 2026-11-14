@@ -1,0 +1,4 @@
+alvo,eventos,municipios,municipio_anos,anos,ano_primeiro_evento,municipios_com_evento,pct_do_total,script,linha_script
+Hidrológico total,732,35,1225,35,1991,35,100,03_variavel_resposta.R,21
+Hidrológico sem chuvas intensas,443,35,1225,35,1991,35,60.51912568306011,03_variavel_resposta.R,21
+Só chuvas intensas,289,35,1225,35,2013,34,39.48087431693989,03_variavel_resposta.R,21

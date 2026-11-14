@@ -1,0 +1,9 @@
+indicador,coluna,I,p_valor,leitura_descritiva,vizinhanca,permutacoes,semente,script,linha_script
+Eventos/mil km² - total,dens_total,0.3678981167782799,0.001,valores parecidos entre vizinhos,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233
+Eventos/mil km² - sem chuvas intensas,dens_sem_chuva,0.5319091756597235,0.001,valores parecidos entre vizinhos,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233
+Eventos/mil km² - só chuvas intensas,dens_so_chuva,0.17439842136236172,0.008,valores parecidos entre vizinhos,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233
+% chuvas intensas,pct_chuva_intensa,0.10198309968079261,0.121,sem padrão espacial detectável,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233
+Tendência municipal (tau) - total,tau_hid_total,0.0012102973972545653,0.354,sem padrão espacial detectável,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233
+Tendência municipal (tau) - sem chuvas intensas,tau_hid_sem_chuva,0.15877002611836732,0.047,valores parecidos entre vizinhos,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233
+Área urbanizada (%),urbano_pct,0.29637424493441555,0.006,valores parecidos entre vizinhos,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233
+Precipitação anual média,prec_anual_media,0.5006277685939773,0.001,valores parecidos entre vizinhos,"4 vizinhos mais próximos (centroides), pesos padronizados por linha",999,42,05_evidencias_hipoteses.R,233

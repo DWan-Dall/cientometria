@@ -1,0 +1,226 @@
+var1,var2,rho_spearman,rotulo1,rotulo2,n_pares,script,linha_script
+prec_anual,prec_anual,0.9999999999999999,Precipitação anual,Precipitação anual,1225,04_preditoras.R,81
+prec_max_mes,prec_anual,0.7769991128588465,Maior precipitação mensal do ano,Precipitação anual,1225,04_preditoras.R,81
+prec_3m_max,prec_anual,0.837921772297826,Maior acumulado de 3 meses,Precipitação anual,1225,04_preditoras.R,81
+meses_ext_chuva,prec_anual,0.39599972552001106,Meses de chuva extrema no ano,Precipitação anual,1225,04_preditoras.R,81
+prec_conv_anual,prec_anual,0.7757691983808204,Precipitação convectiva anual,Precipitação anual,1225,04_preditoras.R,81
+evap_anual,prec_anual,-0.06764980706801481,Evaporação anual,Precipitação anual,1225,04_preditoras.R,81
+temp_media,prec_anual,-0.30095059883659825,Temperatura média a 2 m,Precipitação anual,1225,04_preditoras.R,81
+nuvens_pct,prec_anual,0.4215248840155964,Cobertura de nuvens,Precipitação anual,1225,04_preditoras.R,81
+vento_medio,prec_anual,-0.4249705363385158,Velocidade do vento a 10 m,Precipitação anual,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,prec_anual,-0.1324785350518596,Área urbanizada,Precipitação anual,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,prec_anual,0.2727244269188059,Floresta,Precipitação anual,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,prec_anual,-0.1228348495147763,Agropecuária,Precipitação anual,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,prec_anual,-0.19263816603621237,Área não vegetada,Precipitação anual,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,prec_anual,0.08694361153036462,Vegetação intraurbana,Precipitação anual,1190,04_preditoras.R,81
+mapb_risco_total_ha,prec_anual,0.05475322570889505,Área urbana em risco (alto+muito alto+médio),Precipitação anual,1148,04_preditoras.R,81
+prec_anual,prec_max_mes,0.7769991128588465,Precipitação anual,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+prec_max_mes,prec_max_mes,0.9999999999999999,Maior precipitação mensal do ano,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+prec_3m_max,prec_max_mes,0.7960884451659944,Maior acumulado de 3 meses,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+meses_ext_chuva,prec_max_mes,0.5086546029729132,Meses de chuva extrema no ano,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+prec_conv_anual,prec_max_mes,0.6231415306742598,Precipitação convectiva anual,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+evap_anual,prec_max_mes,-0.13245052017544373,Evaporação anual,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+temp_media,prec_max_mes,-0.18024685241143762,Temperatura média a 2 m,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+nuvens_pct,prec_max_mes,0.3003515533456449,Cobertura de nuvens,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+vento_medio,prec_max_mes,-0.3649275762507286,Velocidade do vento a 10 m,Maior precipitação mensal do ano,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,prec_max_mes,-0.10996553847974629,Área urbanizada,Maior precipitação mensal do ano,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,prec_max_mes,0.2634370474774704,Floresta,Maior precipitação mensal do ano,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,prec_max_mes,-0.1614342374261079,Agropecuária,Maior precipitação mensal do ano,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,prec_max_mes,-0.15892835223545027,Área não vegetada,Maior precipitação mensal do ano,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,prec_max_mes,0.08893034771621774,Vegetação intraurbana,Maior precipitação mensal do ano,1190,04_preditoras.R,81
+mapb_risco_total_ha,prec_max_mes,0.025984491345777194,Área urbana em risco (alto+muito alto+médio),Maior precipitação mensal do ano,1148,04_preditoras.R,81
+prec_anual,prec_3m_max,0.837921772297826,Precipitação anual,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+prec_max_mes,prec_3m_max,0.7960884451659944,Maior precipitação mensal do ano,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+prec_3m_max,prec_3m_max,0.9999999999999999,Maior acumulado de 3 meses,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+meses_ext_chuva,prec_3m_max,0.3549351645187866,Meses de chuva extrema no ano,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+prec_conv_anual,prec_3m_max,0.7161493178021615,Precipitação convectiva anual,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+evap_anual,prec_3m_max,-0.1588459984319992,Evaporação anual,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+temp_media,prec_3m_max,-0.21699082895801058,Temperatura média a 2 m,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+nuvens_pct,prec_3m_max,0.4156851778231684,Cobertura de nuvens,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+vento_medio,prec_3m_max,-0.4681396734876658,Velocidade do vento a 10 m,Maior acumulado de 3 meses,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,prec_3m_max,-0.12724503113450247,Área urbanizada,Maior acumulado de 3 meses,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,prec_3m_max,0.32159408382055327,Floresta,Maior acumulado de 3 meses,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,prec_3m_max,-0.18691750774368127,Agropecuária,Maior acumulado de 3 meses,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,prec_3m_max,-0.18808579239234574,Área não vegetada,Maior acumulado de 3 meses,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,prec_3m_max,0.08003727911987069,Vegetação intraurbana,Maior acumulado de 3 meses,1190,04_preditoras.R,81
+mapb_risco_total_ha,prec_3m_max,0.04627138399993204,Área urbana em risco (alto+muito alto+médio),Maior acumulado de 3 meses,1148,04_preditoras.R,81
+prec_anual,meses_ext_chuva,0.39599972552001106,Precipitação anual,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+prec_max_mes,meses_ext_chuva,0.5086546029729132,Maior precipitação mensal do ano,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+prec_3m_max,meses_ext_chuva,0.3549351645187866,Maior acumulado de 3 meses,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+meses_ext_chuva,meses_ext_chuva,0.9999999999999999,Meses de chuva extrema no ano,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+prec_conv_anual,meses_ext_chuva,0.22541438938069538,Precipitação convectiva anual,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+evap_anual,meses_ext_chuva,0.013500789253442513,Evaporação anual,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+temp_media,meses_ext_chuva,-0.021258669213439864,Temperatura média a 2 m,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+nuvens_pct,meses_ext_chuva,0.07823607301571223,Cobertura de nuvens,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+vento_medio,meses_ext_chuva,0.0028431846102082645,Velocidade do vento a 10 m,Meses de chuva extrema no ano,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,meses_ext_chuva,0.02559230241719456,Área urbanizada,Meses de chuva extrema no ano,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,meses_ext_chuva,0.018287595435576086,Floresta,Meses de chuva extrema no ano,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,meses_ext_chuva,-0.04091890160949837,Agropecuária,Meses de chuva extrema no ano,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,meses_ext_chuva,0.021918968688312078,Área não vegetada,Meses de chuva extrema no ano,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,meses_ext_chuva,0.07285740331595647,Vegetação intraurbana,Meses de chuva extrema no ano,1190,04_preditoras.R,81
+mapb_risco_total_ha,meses_ext_chuva,0.03156890024419336,Área urbana em risco (alto+muito alto+médio),Meses de chuva extrema no ano,1148,04_preditoras.R,81
+prec_anual,prec_conv_anual,0.7757691983808204,Precipitação anual,Precipitação convectiva anual,1225,04_preditoras.R,81
+prec_max_mes,prec_conv_anual,0.6231415306742598,Maior precipitação mensal do ano,Precipitação convectiva anual,1225,04_preditoras.R,81
+prec_3m_max,prec_conv_anual,0.7161493178021615,Maior acumulado de 3 meses,Precipitação convectiva anual,1225,04_preditoras.R,81
+meses_ext_chuva,prec_conv_anual,0.22541438938069538,Meses de chuva extrema no ano,Precipitação convectiva anual,1225,04_preditoras.R,81
+prec_conv_anual,prec_conv_anual,0.9999999999999999,Precipitação convectiva anual,Precipitação convectiva anual,1225,04_preditoras.R,81
+evap_anual,prec_conv_anual,-0.4143525664752034,Evaporação anual,Precipitação convectiva anual,1225,04_preditoras.R,81
+temp_media,prec_conv_anual,-0.14733721220951673,Temperatura média a 2 m,Precipitação convectiva anual,1225,04_preditoras.R,81
+nuvens_pct,prec_conv_anual,0.6930717800986625,Cobertura de nuvens,Precipitação convectiva anual,1225,04_preditoras.R,81
+vento_medio,prec_conv_anual,-0.7491053321818122,Velocidade do vento a 10 m,Precipitação convectiva anual,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,prec_conv_anual,-0.14708003519266838,Área urbanizada,Precipitação convectiva anual,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,prec_conv_anual,0.6094510270228044,Floresta,Precipitação convectiva anual,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,prec_conv_anual,-0.3546585574676831,Agropecuária,Precipitação convectiva anual,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,prec_conv_anual,-0.2606058467604289,Área não vegetada,Precipitação convectiva anual,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,prec_conv_anual,0.03302163730291824,Vegetação intraurbana,Precipitação convectiva anual,1190,04_preditoras.R,81
+mapb_risco_total_ha,prec_conv_anual,0.10341470891522334,Área urbana em risco (alto+muito alto+médio),Precipitação convectiva anual,1148,04_preditoras.R,81
+prec_anual,evap_anual,-0.06764980706801481,Precipitação anual,Evaporação anual,1225,04_preditoras.R,81
+prec_max_mes,evap_anual,-0.13245052017544373,Maior precipitação mensal do ano,Evaporação anual,1225,04_preditoras.R,81
+prec_3m_max,evap_anual,-0.1588459984319992,Maior acumulado de 3 meses,Evaporação anual,1225,04_preditoras.R,81
+meses_ext_chuva,evap_anual,0.013500789253442513,Meses de chuva extrema no ano,Evaporação anual,1225,04_preditoras.R,81
+prec_conv_anual,evap_anual,-0.4143525664752034,Precipitação convectiva anual,Evaporação anual,1225,04_preditoras.R,81
+evap_anual,evap_anual,0.9999999999999999,Evaporação anual,Evaporação anual,1225,04_preditoras.R,81
+temp_media,evap_anual,-0.046993211640284166,Temperatura média a 2 m,Evaporação anual,1225,04_preditoras.R,81
+nuvens_pct,evap_anual,-0.3058331391284082,Cobertura de nuvens,Evaporação anual,1225,04_preditoras.R,81
+vento_medio,evap_anual,0.4714602382551715,Velocidade do vento a 10 m,Evaporação anual,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,evap_anual,0.02773361504938223,Área urbanizada,Evaporação anual,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,evap_anual,-0.5095878337946285,Floresta,Evaporação anual,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,evap_anual,0.46829876069588994,Agropecuária,Evaporação anual,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,evap_anual,0.10301355337159787,Área não vegetada,Evaporação anual,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,evap_anual,-0.045481270386184186,Vegetação intraurbana,Evaporação anual,1190,04_preditoras.R,81
+mapb_risco_total_ha,evap_anual,0.16345959826780285,Área urbana em risco (alto+muito alto+médio),Evaporação anual,1148,04_preditoras.R,81
+prec_anual,temp_media,-0.30095059883659825,Precipitação anual,Temperatura média a 2 m,1225,04_preditoras.R,81
+prec_max_mes,temp_media,-0.18024685241143762,Maior precipitação mensal do ano,Temperatura média a 2 m,1225,04_preditoras.R,81
+prec_3m_max,temp_media,-0.21699082895801058,Maior acumulado de 3 meses,Temperatura média a 2 m,1225,04_preditoras.R,81
+meses_ext_chuva,temp_media,-0.021258669213439864,Meses de chuva extrema no ano,Temperatura média a 2 m,1225,04_preditoras.R,81
+prec_conv_anual,temp_media,-0.14733721220951673,Precipitação convectiva anual,Temperatura média a 2 m,1225,04_preditoras.R,81
+evap_anual,temp_media,-0.046993211640284166,Evaporação anual,Temperatura média a 2 m,1225,04_preditoras.R,81
+temp_media,temp_media,0.9999999999999999,Temperatura média a 2 m,Temperatura média a 2 m,1225,04_preditoras.R,81
+nuvens_pct,temp_media,0.35295486546984206,Cobertura de nuvens,Temperatura média a 2 m,1225,04_preditoras.R,81
+vento_medio,temp_media,0.03360509619834883,Velocidade do vento a 10 m,Temperatura média a 2 m,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,temp_media,0.17715972250693837,Área urbanizada,Temperatura média a 2 m,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,temp_media,0.3176304241796797,Floresta,Temperatura média a 2 m,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,temp_media,-0.37790565027259965,Agropecuária,Temperatura média a 2 m,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,temp_media,0.1412959003525017,Área não vegetada,Temperatura média a 2 m,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,temp_media,-0.15512092722046017,Vegetação intraurbana,Temperatura média a 2 m,1190,04_preditoras.R,81
+mapb_risco_total_ha,temp_media,0.20433467288302357,Área urbana em risco (alto+muito alto+médio),Temperatura média a 2 m,1148,04_preditoras.R,81
+prec_anual,nuvens_pct,0.4215248840155964,Precipitação anual,Cobertura de nuvens,1225,04_preditoras.R,81
+prec_max_mes,nuvens_pct,0.3003515533456449,Maior precipitação mensal do ano,Cobertura de nuvens,1225,04_preditoras.R,81
+prec_3m_max,nuvens_pct,0.4156851778231684,Maior acumulado de 3 meses,Cobertura de nuvens,1225,04_preditoras.R,81
+meses_ext_chuva,nuvens_pct,0.07823607301571223,Meses de chuva extrema no ano,Cobertura de nuvens,1225,04_preditoras.R,81
+prec_conv_anual,nuvens_pct,0.6930717800986625,Precipitação convectiva anual,Cobertura de nuvens,1225,04_preditoras.R,81
+evap_anual,nuvens_pct,-0.3058331391284082,Evaporação anual,Cobertura de nuvens,1225,04_preditoras.R,81
+temp_media,nuvens_pct,0.35295486546984206,Temperatura média a 2 m,Cobertura de nuvens,1225,04_preditoras.R,81
+nuvens_pct,nuvens_pct,0.9999999999999999,Cobertura de nuvens,Cobertura de nuvens,1225,04_preditoras.R,81
+vento_medio,nuvens_pct,-0.7046470268368358,Velocidade do vento a 10 m,Cobertura de nuvens,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,nuvens_pct,-0.024188328094921864,Área urbanizada,Cobertura de nuvens,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,nuvens_pct,0.7569005029861269,Floresta,Cobertura de nuvens,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,nuvens_pct,-0.554994323053934,Agropecuária,Cobertura de nuvens,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,nuvens_pct,-0.14747602659242937,Área não vegetada,Cobertura de nuvens,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,nuvens_pct,-0.030537706139225025,Vegetação intraurbana,Cobertura de nuvens,1190,04_preditoras.R,81
+mapb_risco_total_ha,nuvens_pct,0.25619979115668856,Área urbana em risco (alto+muito alto+médio),Cobertura de nuvens,1148,04_preditoras.R,81
+prec_anual,vento_medio,-0.4249705363385158,Precipitação anual,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+prec_max_mes,vento_medio,-0.3649275762507286,Maior precipitação mensal do ano,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+prec_3m_max,vento_medio,-0.4681396734876658,Maior acumulado de 3 meses,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+meses_ext_chuva,vento_medio,0.0028431846102082645,Meses de chuva extrema no ano,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+prec_conv_anual,vento_medio,-0.7491053321818122,Precipitação convectiva anual,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+evap_anual,vento_medio,0.4714602382551715,Evaporação anual,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+temp_media,vento_medio,0.03360509619834883,Temperatura média a 2 m,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+nuvens_pct,vento_medio,-0.7046470268368358,Cobertura de nuvens,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+vento_medio,vento_medio,0.9999999999999999,Velocidade do vento a 10 m,Velocidade do vento a 10 m,1225,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,vento_medio,0.31061475601504646,Área urbanizada,Velocidade do vento a 10 m,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,vento_medio,-0.7105665468802592,Floresta,Velocidade do vento a 10 m,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,vento_medio,0.33252553717802846,Agropecuária,Velocidade do vento a 10 m,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,vento_medio,0.43977059572836086,Área não vegetada,Velocidade do vento a 10 m,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,vento_medio,-0.016982038020522245,Vegetação intraurbana,Velocidade do vento a 10 m,1190,04_preditoras.R,81
+mapb_risco_total_ha,vento_medio,-0.10737023463778586,Área urbana em risco (alto+muito alto+médio),Velocidade do vento a 10 m,1148,04_preditoras.R,81
+prec_anual,mapb_cob_n2_area_urbanizada_pct,-0.1324785350518596,Precipitação anual,Área urbanizada,1190,04_preditoras.R,81
+prec_max_mes,mapb_cob_n2_area_urbanizada_pct,-0.10996553847974629,Maior precipitação mensal do ano,Área urbanizada,1190,04_preditoras.R,81
+prec_3m_max,mapb_cob_n2_area_urbanizada_pct,-0.12724503113450247,Maior acumulado de 3 meses,Área urbanizada,1190,04_preditoras.R,81
+meses_ext_chuva,mapb_cob_n2_area_urbanizada_pct,0.02559230241719456,Meses de chuva extrema no ano,Área urbanizada,1190,04_preditoras.R,81
+prec_conv_anual,mapb_cob_n2_area_urbanizada_pct,-0.14708003519266838,Precipitação convectiva anual,Área urbanizada,1190,04_preditoras.R,81
+evap_anual,mapb_cob_n2_area_urbanizada_pct,0.02773361504938223,Evaporação anual,Área urbanizada,1190,04_preditoras.R,81
+temp_media,mapb_cob_n2_area_urbanizada_pct,0.17715972250693837,Temperatura média a 2 m,Área urbanizada,1190,04_preditoras.R,81
+nuvens_pct,mapb_cob_n2_area_urbanizada_pct,-0.024188328094921864,Cobertura de nuvens,Área urbanizada,1190,04_preditoras.R,81
+vento_medio,mapb_cob_n2_area_urbanizada_pct,0.31061475601504646,Velocidade do vento a 10 m,Área urbanizada,1190,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,mapb_cob_n2_area_urbanizada_pct,1,Área urbanizada,Área urbanizada,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,mapb_cob_n2_area_urbanizada_pct,-0.14057864527239736,Floresta,Área urbanizada,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,mapb_cob_n2_area_urbanizada_pct,-0.23719112573795093,Agropecuária,Área urbanizada,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,mapb_cob_n2_area_urbanizada_pct,0.9693553899263595,Área não vegetada,Área urbanizada,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,mapb_cob_n2_area_urbanizada_pct,0.17870356842128632,Vegetação intraurbana,Área urbanizada,1190,04_preditoras.R,81
+mapb_risco_total_ha,mapb_cob_n2_area_urbanizada_pct,0.4729174164791251,Área urbana em risco (alto+muito alto+médio),Área urbanizada,1148,04_preditoras.R,81
+prec_anual,mapb_cob_n1_floresta_pct,0.2727244269188059,Precipitação anual,Floresta,1190,04_preditoras.R,81
+prec_max_mes,mapb_cob_n1_floresta_pct,0.2634370474774704,Maior precipitação mensal do ano,Floresta,1190,04_preditoras.R,81
+prec_3m_max,mapb_cob_n1_floresta_pct,0.32159408382055327,Maior acumulado de 3 meses,Floresta,1190,04_preditoras.R,81
+meses_ext_chuva,mapb_cob_n1_floresta_pct,0.018287595435576086,Meses de chuva extrema no ano,Floresta,1190,04_preditoras.R,81
+prec_conv_anual,mapb_cob_n1_floresta_pct,0.6094510270228044,Precipitação convectiva anual,Floresta,1190,04_preditoras.R,81
+evap_anual,mapb_cob_n1_floresta_pct,-0.5095878337946285,Evaporação anual,Floresta,1190,04_preditoras.R,81
+temp_media,mapb_cob_n1_floresta_pct,0.3176304241796797,Temperatura média a 2 m,Floresta,1190,04_preditoras.R,81
+nuvens_pct,mapb_cob_n1_floresta_pct,0.7569005029861269,Cobertura de nuvens,Floresta,1190,04_preditoras.R,81
+vento_medio,mapb_cob_n1_floresta_pct,-0.7105665468802592,Velocidade do vento a 10 m,Floresta,1190,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,mapb_cob_n1_floresta_pct,-0.14057864527239736,Área urbanizada,Floresta,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,mapb_cob_n1_floresta_pct,1,Floresta,Floresta,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,mapb_cob_n1_floresta_pct,-0.7359167898939982,Agropecuária,Floresta,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,mapb_cob_n1_floresta_pct,-0.2739738481822067,Área não vegetada,Floresta,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,mapb_cob_n1_floresta_pct,-0.12824688389273167,Vegetação intraurbana,Floresta,1190,04_preditoras.R,81
+mapb_risco_total_ha,mapb_cob_n1_floresta_pct,0.13690135794214425,Área urbana em risco (alto+muito alto+médio),Floresta,1148,04_preditoras.R,81
+prec_anual,mapb_cob_n1_agropecuaria_pct,-0.1228348495147763,Precipitação anual,Agropecuária,1190,04_preditoras.R,81
+prec_max_mes,mapb_cob_n1_agropecuaria_pct,-0.1614342374261079,Maior precipitação mensal do ano,Agropecuária,1190,04_preditoras.R,81
+prec_3m_max,mapb_cob_n1_agropecuaria_pct,-0.18691750774368127,Maior acumulado de 3 meses,Agropecuária,1190,04_preditoras.R,81
+meses_ext_chuva,mapb_cob_n1_agropecuaria_pct,-0.04091890160949837,Meses de chuva extrema no ano,Agropecuária,1190,04_preditoras.R,81
+prec_conv_anual,mapb_cob_n1_agropecuaria_pct,-0.3546585574676831,Precipitação convectiva anual,Agropecuária,1190,04_preditoras.R,81
+evap_anual,mapb_cob_n1_agropecuaria_pct,0.46829876069588994,Evaporação anual,Agropecuária,1190,04_preditoras.R,81
+temp_media,mapb_cob_n1_agropecuaria_pct,-0.37790565027259965,Temperatura média a 2 m,Agropecuária,1190,04_preditoras.R,81
+nuvens_pct,mapb_cob_n1_agropecuaria_pct,-0.554994323053934,Cobertura de nuvens,Agropecuária,1190,04_preditoras.R,81
+vento_medio,mapb_cob_n1_agropecuaria_pct,0.33252553717802846,Velocidade do vento a 10 m,Agropecuária,1190,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,mapb_cob_n1_agropecuaria_pct,-0.23719112573795093,Área urbanizada,Agropecuária,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,mapb_cob_n1_agropecuaria_pct,-0.7359167898939982,Floresta,Agropecuária,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,mapb_cob_n1_agropecuaria_pct,1,Agropecuária,Agropecuária,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,mapb_cob_n1_agropecuaria_pct,-0.1830500954685069,Área não vegetada,Agropecuária,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,mapb_cob_n1_agropecuaria_pct,0.07681764949954449,Vegetação intraurbana,Agropecuária,1190,04_preditoras.R,81
+mapb_risco_total_ha,mapb_cob_n1_agropecuaria_pct,-0.14029183632423464,Área urbana em risco (alto+muito alto+médio),Agropecuária,1148,04_preditoras.R,81
+prec_anual,mapb_cob_n1_area_nao_vegetada_pct,-0.19263816603621237,Precipitação anual,Área não vegetada,1190,04_preditoras.R,81
+prec_max_mes,mapb_cob_n1_area_nao_vegetada_pct,-0.15892835223545027,Maior precipitação mensal do ano,Área não vegetada,1190,04_preditoras.R,81
+prec_3m_max,mapb_cob_n1_area_nao_vegetada_pct,-0.18808579239234574,Maior acumulado de 3 meses,Área não vegetada,1190,04_preditoras.R,81
+meses_ext_chuva,mapb_cob_n1_area_nao_vegetada_pct,0.021918968688312078,Meses de chuva extrema no ano,Área não vegetada,1190,04_preditoras.R,81
+prec_conv_anual,mapb_cob_n1_area_nao_vegetada_pct,-0.2606058467604289,Precipitação convectiva anual,Área não vegetada,1190,04_preditoras.R,81
+evap_anual,mapb_cob_n1_area_nao_vegetada_pct,0.10301355337159787,Evaporação anual,Área não vegetada,1190,04_preditoras.R,81
+temp_media,mapb_cob_n1_area_nao_vegetada_pct,0.1412959003525017,Temperatura média a 2 m,Área não vegetada,1190,04_preditoras.R,81
+nuvens_pct,mapb_cob_n1_area_nao_vegetada_pct,-0.14747602659242937,Cobertura de nuvens,Área não vegetada,1190,04_preditoras.R,81
+vento_medio,mapb_cob_n1_area_nao_vegetada_pct,0.43977059572836086,Velocidade do vento a 10 m,Área não vegetada,1190,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,mapb_cob_n1_area_nao_vegetada_pct,0.9693553899263595,Área urbanizada,Área não vegetada,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,mapb_cob_n1_area_nao_vegetada_pct,-0.2739738481822067,Floresta,Área não vegetada,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,mapb_cob_n1_area_nao_vegetada_pct,-0.1830500954685069,Agropecuária,Área não vegetada,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,mapb_cob_n1_area_nao_vegetada_pct,1,Área não vegetada,Área não vegetada,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,mapb_cob_n1_area_nao_vegetada_pct,0.18087371294917476,Vegetação intraurbana,Área não vegetada,1190,04_preditoras.R,81
+mapb_risco_total_ha,mapb_cob_n1_area_nao_vegetada_pct,0.4139743513946781,Área urbana em risco (alto+muito alto+médio),Área não vegetada,1148,04_preditoras.R,81
+prec_anual,mapb_urb_pct_vegetada,0.08694361153036462,Precipitação anual,Vegetação intraurbana,1190,04_preditoras.R,81
+prec_max_mes,mapb_urb_pct_vegetada,0.08893034771621774,Maior precipitação mensal do ano,Vegetação intraurbana,1190,04_preditoras.R,81
+prec_3m_max,mapb_urb_pct_vegetada,0.08003727911987069,Maior acumulado de 3 meses,Vegetação intraurbana,1190,04_preditoras.R,81
+meses_ext_chuva,mapb_urb_pct_vegetada,0.07285740331595647,Meses de chuva extrema no ano,Vegetação intraurbana,1190,04_preditoras.R,81
+prec_conv_anual,mapb_urb_pct_vegetada,0.03302163730291824,Precipitação convectiva anual,Vegetação intraurbana,1190,04_preditoras.R,81
+evap_anual,mapb_urb_pct_vegetada,-0.045481270386184186,Evaporação anual,Vegetação intraurbana,1190,04_preditoras.R,81
+temp_media,mapb_urb_pct_vegetada,-0.15512092722046017,Temperatura média a 2 m,Vegetação intraurbana,1190,04_preditoras.R,81
+nuvens_pct,mapb_urb_pct_vegetada,-0.030537706139225025,Cobertura de nuvens,Vegetação intraurbana,1190,04_preditoras.R,81
+vento_medio,mapb_urb_pct_vegetada,-0.016982038020522245,Velocidade do vento a 10 m,Vegetação intraurbana,1190,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,mapb_urb_pct_vegetada,0.17870356842128632,Área urbanizada,Vegetação intraurbana,1190,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,mapb_urb_pct_vegetada,-0.12824688389273167,Floresta,Vegetação intraurbana,1190,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,mapb_urb_pct_vegetada,0.07681764949954449,Agropecuária,Vegetação intraurbana,1190,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,mapb_urb_pct_vegetada,0.18087371294917476,Área não vegetada,Vegetação intraurbana,1190,04_preditoras.R,81
+mapb_urb_pct_vegetada,mapb_urb_pct_vegetada,1,Vegetação intraurbana,Vegetação intraurbana,1190,04_preditoras.R,81
+mapb_risco_total_ha,mapb_urb_pct_vegetada,0.14734103678932925,Área urbana em risco (alto+muito alto+médio),Vegetação intraurbana,1148,04_preditoras.R,81
+prec_anual,mapb_risco_total_ha,0.05475322570889505,Precipitação anual,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+prec_max_mes,mapb_risco_total_ha,0.025984491345777194,Maior precipitação mensal do ano,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+prec_3m_max,mapb_risco_total_ha,0.04627138399993204,Maior acumulado de 3 meses,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+meses_ext_chuva,mapb_risco_total_ha,0.03156890024419336,Meses de chuva extrema no ano,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+prec_conv_anual,mapb_risco_total_ha,0.10341470891522334,Precipitação convectiva anual,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+evap_anual,mapb_risco_total_ha,0.16345959826780285,Evaporação anual,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+temp_media,mapb_risco_total_ha,0.20433467288302357,Temperatura média a 2 m,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+nuvens_pct,mapb_risco_total_ha,0.25619979115668856,Cobertura de nuvens,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+vento_medio,mapb_risco_total_ha,-0.10737023463778586,Velocidade do vento a 10 m,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+mapb_cob_n2_area_urbanizada_pct,mapb_risco_total_ha,0.4729174164791251,Área urbanizada,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+mapb_cob_n1_floresta_pct,mapb_risco_total_ha,0.13690135794214425,Floresta,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+mapb_cob_n1_agropecuaria_pct,mapb_risco_total_ha,-0.14029183632423464,Agropecuária,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+mapb_cob_n1_area_nao_vegetada_pct,mapb_risco_total_ha,0.4139743513946781,Área não vegetada,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+mapb_urb_pct_vegetada,mapb_risco_total_ha,0.14734103678932925,Vegetação intraurbana,Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81
+mapb_risco_total_ha,mapb_risco_total_ha,1,Área urbana em risco (alto+muito alto+médio),Área urbana em risco (alto+muito alto+médio),1148,04_preditoras.R,81

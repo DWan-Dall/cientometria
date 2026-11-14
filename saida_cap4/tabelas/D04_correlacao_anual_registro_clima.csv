@@ -1,0 +1,14 @@
+alvo,rho,p_valor,n,relacao,script,linha_script
+Hidrológico total,0.7326374032065526,5.625902012593697e-7,35,eventos x ano,05_evidencias_hipoteses.R,93
+Hidrológico total,0.2361851355628012,0.17195132461654652,35,eventos x meses extremos de chuva,05_evidencias_hipoteses.R,93
+Hidrológico total,0.28158954334072395,0.10126375145426755,35,eventos x precipitação média,05_evidencias_hipoteses.R,93
+Hidrológico total,0.18922144525135753,0.27630127965615986,35,eventos x vento médio (controle negativo),05_evidencias_hipoteses.R,93
+Hidrológico sem chuvas intensas,0.3883867035544715,0.021131648598095108,35,eventos x ano,05_evidencias_hipoteses.R,93
+Hidrológico sem chuvas intensas,0.2811930821589684,0.101765873089509,35,eventos x meses extremos de chuva,05_evidencias_hipoteses.R,93
+Hidrológico sem chuvas intensas,0.3716954728852833,0.02790896879630375,35,eventos x precipitação média,05_evidencias_hipoteses.R,93
+Hidrológico sem chuvas intensas,0.11852176399549601,0.497698547253174,35,eventos x vento médio (controle negativo),05_evidencias_hipoteses.R,93
+Só chuvas intensas,0.8376261282265134,3.5072621277499637e-10,35,eventos x ano,05_evidencias_hipoteses.R,93
+Só chuvas intensas,-0.05811778837492146,0.740173959313157,35,eventos x meses extremos de chuva,05_evidencias_hipoteses.R,93
+Só chuvas intensas,-0.09332697280121564,0.5938645877179922,35,eventos x precipitação média,05_evidencias_hipoteses.R,93
+Só chuvas intensas,0.13800477892945717,0.4291833470001474,35,eventos x vento médio (controle negativo),05_evidencias_hipoteses.R,93
+(clima),0.02382454401318966,0.8919413177792543,35,meses extremos x ano,05_evidencias_hipoteses.R,93
